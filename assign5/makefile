@@ -8,7 +8,7 @@ output.txt: parser.out
 	./parser.out < test/test6.c > output/output6.txt
 
 parser.out: lex.yy.o translator.o y.tab.o
-	g++ lex.yy.o y.tab.o translator.o -lfl -o parser.out
+	g++ lex.yy.o y.tab.o translator.o -o parser.out
 
 translator.o: translator.cxx translator.h
 	g++ -c translator.cxx
