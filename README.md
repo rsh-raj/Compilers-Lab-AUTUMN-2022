@@ -80,8 +80,11 @@ $ make clean
 ```
 #### **Files and their description**
 Asgn4_20CS10005_20CS30040.y: contains the required bison specification
+
 Asgn4_20CS10005_20CS30040.l: contains the lexer from previous assignment
+
 Asgn4_20CS10005_20CS30040.c: main file to test the lexer and parser
+
 Asgn4_20CS10005_20CS30040_test.c: test input file to test all the rules written
 
 
@@ -94,15 +97,20 @@ This assignment involves writing a 3-Address Code(TAC quad array with the suppor
 $ make
 ```
 Result is written in output<test_num>.txt in the output subdirectory.
+
 To clean the directory of all the generated files:
 ```bash
 $ make clean
 ```
 #### **Files and their description**
 lex2.l: contains the lexer from assign3
+
 bison2.y: contains the bison specification from previous assignment
+
 translator.cxx and translator.h: contains the code for translator
+
 test/: subdirectory containing the test files
+
 output/: subdirectory containing the result of test files
 # Assignment 6: Target code(x86-64) code generator for tinyC
 This assignment involves writing a translator which will generate target code x86-64 architecture from 3-Address quad's generated in the previous assignment
@@ -123,8 +131,13 @@ $ make clean
 ```
 #### **Files and their description**
 ass2_20CS10005.c: contains the library for I/O (more details in assign2) 
+
 ass6_20CS1005.l: contains the lexer from assign3
+
 ass6_20CS10005.y: contains the bison specification from assign4
+
 ass6_20CS1005_translator.cxx and translator.h: contains the code for translator
+
 ass6_20CS10005_target_translator.cxx: contain the code for translating the 3-Address code to target code
+
 .\*test.\* contains the test files
